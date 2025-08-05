@@ -1,0 +1,543 @@
+{
+    "foods": [
+        {
+            "id": 1,
+            "name": "Margherita Pizza",
+            "description": "Classic pizza with fresh mozzarella, tomato sauce, and basil",
+            "price": 899,
+            "category": "Main Course",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400",
+            "rating": 4.5,
+            "preparationTime": "15-20 mins",
+            "ingredients": [
+                "Mozzarella",
+                "Tomato Sauce",
+                "Basil",
+                "Pizza Dough"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 2,
+            "name": "Chicken Burger",
+            "description": "Juicy grilled chicken breast with lettuce, tomato, and mayo",
+            "price": 599,
+            "category": "Main Course",
+            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400",
+            "rating": 4.3,
+            "preparationTime": "10-15 mins",
+            "ingredients": [
+                "Chicken Breast",
+                "Bun",
+                "Lettuce",
+                "Tomato",
+                "Mayo"
+            ],
+            "isVegetarian": false,
+            "isAvailable": true
+        },
+        {
+            "id": 3,
+            "name": "Caesar Salad",
+            "description": "Fresh romaine lettuce with caesar dressing, croutons, and parmesan",
+            "price": 499,
+            "category": "Appetizer",
+            "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400",
+            "rating": 4.2,
+            "preparationTime": "5-10 mins",
+            "ingredients": [
+                "Romaine Lettuce",
+                "Caesar Dressing",
+                "Croutons",
+                "Parmesan"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 4,
+            "name": "Spaghetti Carbonara",
+            "description": "Creamy pasta with bacon, eggs, and parmesan cheese",
+            "price": 799,
+            "category": "Main Course",
+            "image": "https://static01.nyt.com/images/2021/02/14/dining/carbonara-horizontal/carbonara-horizontal-threeByTwoMediumAt2X-v2.jpg?quality=75&auto=webp&w=600",
+            "rating": 4.6,
+            "preparationTime": "12-18 mins",
+            "ingredients": [
+                "Spaghetti",
+                "Bacon",
+                "Eggs",
+                "Parmesan",
+                "Cream"
+            ],
+            "isVegetarian": false,
+            "isAvailable": true
+        },
+        {
+            "id": 5,
+            "name": "Fish and Chips",
+            "description": "Beer-battered cod with crispy fries and tartar sauce",
+            "price": 999,
+            "category": "Main Course",
+            "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400",
+            "rating": 4.4,
+            "preparationTime": "15-20 mins",
+            "ingredients": [
+                "Cod Fish",
+                "Potatoes",
+                "Beer Batter",
+                "Tartar Sauce"
+            ],
+            "isVegetarian": false,
+            "isAvailable": true
+        },
+        {
+            "id": 6,
+            "name": "Chocolate Lava Cake",
+            "description": "Warm chocolate cake with molten center, served with vanilla ice cream",
+            "price": 399,
+            "category": "Dessert",
+            "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400",
+            "rating": 4.8,
+            "preparationTime": "8-12 mins",
+            "ingredients": [
+                "Chocolate",
+                "Flour",
+                "Butter",
+                "Eggs",
+                "Vanilla Ice Cream"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 7,
+            "name": "Chicken Wings",
+            "description": "Spicy buffalo wings served with blue cheese dip",
+            "price": 649,
+            "category": "Appetizer",
+            "image": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=400",
+            "rating": 4.3,
+            "preparationTime": "12-15 mins",
+            "ingredients": [
+                "Chicken Wings",
+                "Buffalo Sauce",
+                "Blue Cheese",
+                "Celery"
+            ],
+            "isVegetarian": false,
+            "isAvailable": true
+        },
+        {
+            "id": 8,
+            "name": "Vegetable Stir Fry",
+            "description": "Mixed vegetables stir-fried with soy sauce and ginger",
+            "price": 559,
+            "category": "Main Course",
+            "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=400",
+            "rating": 4.1,
+            "preparationTime": "8-12 mins",
+            "ingredients": [
+                "Mixed Vegetables",
+                "Soy Sauce",
+                "Ginger",
+                "Garlic"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 9,
+            "name": "Beef Tacos",
+            "description": "Three soft tacos with seasoned ground beef, lettuce, and cheese",
+            "price": 749,
+            "category": "Main Course",
+            "image": "https://feelgoodfoodie.net/wp-content/uploads/2017/04/Ground-Beef-Tacos-9.jpg?w=400",
+            "rating": 4.5,
+            "preparationTime": "10-15 mins",
+            "ingredients": [
+                "Ground Beef",
+                "Tortillas",
+                "Lettuce",
+                "Cheese",
+                "Salsa"
+            ],
+            "isVegetarian": false,
+            "isAvailable": true
+        },
+        {
+            "id": 10,
+            "name": "Greek Salad",
+            "description": "Fresh salad with feta cheese, olives, tomatoes, and cucumber",
+            "price": 599,
+            "category": "Appetizer",
+            "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400",
+            "rating": 4.2,
+            "preparationTime": "5-8 mins",
+            "ingredients": [
+                "Feta Cheese",
+                "Olives",
+                "Tomatoes",
+                "Cucumber",
+                "Olive Oil"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 11,
+            "name": "BBQ Ribs",
+            "description": "Tender pork ribs with smoky BBQ sauce",
+            "price": 1199,
+            "category": "Main Course",
+            "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400",
+            "rating": 4.7,
+            "preparationTime": "25-30 mins",
+            "ingredients": [
+                "Pork Ribs",
+                "BBQ Sauce",
+                "Spices",
+                "Herbs"
+            ],
+            "isVegetarian": false,
+            "isAvailable": true
+        },
+        {
+            "id": 12,
+            "name": "Tiramisu",
+            "description": "Classic Italian dessert with coffee, mascarpone, and cocoa",
+            "price": 399,
+            "category": "Dessert",
+            "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400",
+            "rating": 4.6,
+            "preparationTime": "5 mins",
+            "ingredients": [
+                "Mascarpone",
+                "Coffee",
+                "Ladyfingers",
+                "Cocoa",
+                "Sugar"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 13,
+            "name": "Mushroom Risotto",
+            "description": "Creamy arborio rice with mixed mushrooms and parmesan",
+            "price": 849,
+            "category": "Main Course",
+            "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=400",
+            "rating": 4.4,
+            "preparationTime": "18-22 mins",
+            "ingredients": [
+                "Arborio Rice",
+                "Mushrooms",
+                "Parmesan",
+                "White Wine",
+                "Broth"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 14,
+            "name": "Coca Cola",
+            "description": "Classic refreshing cola drink",
+            "price": 149,
+            "category": "Beverage",
+            "image": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=400",
+            "rating": 4.0,
+            "preparationTime": "1 min",
+            "ingredients": [
+                "Carbonated Water",
+                "Sugar",
+                "Cola Extract"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 15,
+            "name": "Pepsi",
+            "description": "Cool and refreshing cola beverage",
+            "price": 149,
+            "category": "Beverage",
+            "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400",
+            "rating": 3.9,
+            "preparationTime": "1 min",
+            "ingredients": [
+                "Carbonated Water",
+                "Sugar",
+                "Cola Extract"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 16,
+            "name": "Orange Juice",
+            "description": "Fresh squeezed orange juice",
+            "price": 249,
+            "category": "Beverage",
+            "image": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=400",
+            "rating": 4.3,
+            "preparationTime": "2 mins",
+            "ingredients": [
+                "Fresh Oranges"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 17,
+            "name": "Grilled Salmon",
+            "description": "Fresh Atlantic salmon grilled with herbs and lemon",
+            "price": 1299,
+            "category": "Main Course",
+            "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400",
+            "rating": 4.8,
+            "preparationTime": "15-18 mins",
+            "ingredients": [
+                "Salmon Fillet",
+                "Herbs",
+                "Lemon",
+                "Olive Oil"
+            ],
+            "isVegetarian": false,
+            "isAvailable": true
+        },
+        {
+            "id": 18,
+            "name": "Garlic Bread",
+            "description": "Toasted bread with garlic butter and herbs",
+            "price": 349,
+            "category": "Appetizer",
+            "image": "https://www.ambitiouskitchen.com/wp-content/uploads/2023/02/Garlic-Bread-4-1064x1064.jpg?w=400",
+            "rating": 4.1,
+            "preparationTime": "5-8 mins",
+            "ingredients": [
+                "Bread",
+                "Garlic",
+                "Butter",
+                "Herbs"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 19,
+            "name": "Chicken Alfredo",
+            "description": "Fettuccine pasta with grilled chicken in creamy alfredo sauce",
+            "price": 949,
+            "category": "Main Course",
+            "image": "https://hips.hearstapps.com/hmg-prod/images/delish-221130-perfect-chicken-alfredo-0689-eb-1670449996.jpg?crop=1.00xw:0.738xh;0,0.133xh&resize=1200:*",
+            "rating": 4.5,
+            "preparationTime": "15-20 mins",
+            "ingredients": [
+                "Fettuccine",
+                "Chicken Breast",
+                "Alfredo Sauce",
+                "Parmesan"
+            ],
+            "isVegetarian": false,
+            "isAvailable": true
+        },
+        {
+            "id": 20,
+            "name": "Mozzarella Sticks",
+            "description": "Crispy breaded mozzarella served with marinara sauce",
+            "price": 449,
+            "category": "Appetizer",
+            "image": "https://images.unsplash.com/photo-1548340748-6d2b7d7da280?w=400",
+            "rating": 4.2,
+            "preparationTime": "8-10 mins",
+            "ingredients": [
+                "Mozzarella",
+                "Breadcrumbs",
+                "Marinara Sauce"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 21,
+            "name": "Ice Cream Sundae",
+            "description": "Vanilla ice cream with chocolate sauce, whipped cream, and cherry",
+            "price": 349,
+            "category": "Dessert",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400",
+            "rating": 4.4,
+            "preparationTime": "3-5 mins",
+            "ingredients": [
+                "Vanilla Ice Cream",
+                "Chocolate Sauce",
+                "Whipped Cream",
+                "Cherry"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 22,
+            "name": "Beef Steak",
+            "description": "Grilled ribeye steak cooked to your preference",
+            "price": 1599,
+            "category": "Main Course",
+            "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400",
+            "rating": 4.9,
+            "preparationTime": "20-25 mins",
+            "ingredients": [
+                "Ribeye Steak",
+                "Salt",
+                "Pepper",
+                "Herbs"
+            ],
+            "isVegetarian": false,
+            "isAvailable": true
+        },
+        {
+            "id": 23,
+            "name": "Caprese Salad",
+            "description": "Fresh mozzarella, tomatoes, and basil with balsamic glaze",
+            "price": 599,
+            "category": "Appetizer",
+            "image": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?w=400",
+            "rating": 4.3,
+            "preparationTime": "5 mins",
+            "ingredients": [
+                "Fresh Mozzarella",
+                "Tomatoes",
+                "Basil",
+                "Balsamic Glaze"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 24,
+            "name": "Iced Coffee",
+            "description": "Cold brew coffee served over ice with cream",
+            "price": 229,
+            "category": "Beverage",
+            "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400",
+            "rating": 4.2,
+            "preparationTime": "2 mins",
+            "ingredients": [
+                "Coffee",
+                "Ice",
+                "Cream"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 25,
+            "name": "Chicken Quesadilla",
+            "description": "Grilled tortilla with chicken, cheese, and peppers",
+            "price": 679,
+            "category": "Main Course",
+            "image": "https://hips.hearstapps.com/hmg-prod/images/chicken-quesadillas-lead-668eeac0e860b.jpg?w=400",
+            "rating": 4.4,
+            "preparationTime": "10-12 mins",
+            "ingredients": [
+                "Tortilla",
+                "Chicken",
+                "Cheese",
+                "Peppers",
+                "Onions"
+            ],
+            "isVegetarian": false,
+            "isAvailable": true
+        },
+        {
+            "id": 26,
+            "name": "French Fries",
+            "description": "Crispy golden french fries with sea salt",
+            "price": 249,
+            "category": "Appetizer",
+            "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400",
+            "rating": 4.0,
+            "preparationTime": "8-10 mins",
+            "ingredients": [
+                "Potatoes",
+                "Oil",
+                "Sea Salt"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 27,
+            "name": "Cheesecake",
+            "description": "New York style cheesecake with berry compote",
+            "price": 429,
+            "category": "Dessert",
+            "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=400",
+            "rating": 4.7,
+            "preparationTime": "5 mins",
+            "ingredients": [
+                "Cream Cheese",
+                "Graham Crackers",
+                "Berries",
+                "Sugar"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 28,
+            "name": "Hot Tea",
+            "description": "Selection of premium teas served hot",
+            "price": 199,
+            "category": "Beverage",
+            "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=400",
+            "rating": 4.1,
+            "preparationTime": "3-5 mins",
+            "ingredients": [
+                "Tea Leaves",
+                "Hot Water"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 29,
+            "name": "Veggie Burger",
+            "description": "Plant-based patty with lettuce, tomato, and vegan mayo",
+            "price": 679,
+            "category": "Main Course",
+            "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360?w=400",
+            "rating": 4.2,
+            "preparationTime": "12-15 mins",
+            "ingredients": [
+                "Veggie Patty",
+                "Bun",
+                "Lettuce",
+                "Tomato",
+                "Vegan Mayo"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        },
+        {
+            "id": 30,
+            "name": "Onion Rings",
+            "description": "Crispy beer-battered onion rings with ranch dip",
+            "price": 399,
+            "category": "Appetizer",
+            "image": "https://images.unsplash.com/photo-1639024471283-03518883512d?w=400",
+            "rating": 4.0,
+            "preparationTime": "8-12 mins",
+            "ingredients": [
+                "Onions",
+                "Beer Batter",
+                "Oil",
+                "Ranch Dressing"
+            ],
+            "isVegetarian": true,
+            "isAvailable": true
+        }
+    ]
+}
